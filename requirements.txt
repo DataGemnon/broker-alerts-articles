@@ -1,0 +1,5 @@
+pandas
+matplotlib
+numpy
+requests
+certifi>=2024.0.0
