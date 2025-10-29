@@ -34,7 +34,7 @@ def find_latest_date_with_articles(data):
     return []
 
 def display_latest_recommendations(data):
-    print("Voici les dernières recommandations des brokers :\n")
+    print("You can see here the latest recommendation changes :\n")
     for item in data:
         published_datetime = datetime.strptime(item['publishedDate'], '%Y-%m-%dT%H:%M:%S.%fZ')
         formatted_date = published_datetime.strftime('%Y-%m-%d %H:%M')
